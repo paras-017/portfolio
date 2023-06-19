@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "projectImg": "/crud.png",
+      "projectName": "AuthFlow",
+      "projectDesc": "AuthFlow is a powerful CRUD (Create, Read, Update, Delete) application with seamless Google authentication integration. It offers a streamlined and secure user experience, allowing users to authenticate using their Google credentials and access various features within the app. With AuthFlow, users can manage their data efficiently while enjoying the benefits of Google's robust authentication system.",
+      "projectLink":"https://next-crud-auth-ecru.vercel.app/",
+      "projectGitLink":"https://github.com/paras-017/next-crud-auth/tree/main"
+    },
+    {
+      "id": 2,
+      "projectImg": "/ecommerce.png",
+      "projectName": "Cartify - Your Ultimate Ecommerce Cart Experience",
+      "projectDesc": "Simplify your online shopping experience with SmartCart. Add items, track total cost instantly, and enjoy seamless checkout. Shop smarter, shop easier with SmartCart",
+      "projectLink":"https://next-js-ts-shopping-cart.vercel.app/",
+      "projectGitLink":"https://github.com/paras-017/Next.js-TS-shopping-cart/tree/main"
+    }
+  ]
+  

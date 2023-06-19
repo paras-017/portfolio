@@ -14,7 +14,7 @@ const Hero = () => {
       </div>
 
       {/* About */}
-      <div className='flex items-center justify-center flex-col md:flex-row md:mt-10 gap-5 mx-3 '>
+      <div className='flex items-center justify-center flex-col md:flex-row mt-10 md:mt-24 gap-5 mx-3 '>
         <div className="about-img hero-img">
         </div>
         <div className="about-content space-y-5 md:w-[770px] md:ml-10">
