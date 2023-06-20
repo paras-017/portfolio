@@ -13,14 +13,12 @@ const Projectcards = ({id,projectImg,projectName,projectDesc,projectLink,project
         <h1 className='text-3xl font-medium'>{projectName}</h1>
         <p className='md:text-lg text-base'>{projectDesc}</p>
         <div className=' flex text-xl space-x-3'>
-           {/* <div> <Link href={projectLink}><i className="fa-solid fa-link hover:text-blue-500  transition-all ease-in-out"></i></Link></div>
-            <div><Link href={projectGitLink}><i className="fa-brands fa-github hover:text-blue-500  transition-all ease-in-out"></i></Link></div> */}
             <Link href={projectLink}>
                 <button className=' bg-gray-800 text-white py-1 px-2 rounded-lg text-lg flex items-center hover:bg-white hover:hover:text-blue-600 hover:shadow-xl transition-all ease-in-out'>
                 visit<i className="ml-2 text-sm  fa fa-external-link  mr-2"></i>
                 </button>
             </Link>
-            <Link href={projectLink}>
+            <Link href={projectGitLink}>
                 <button className='bg-gray-800 text-white py-1 px-2 rounded-lg text-lg flex items-center hover:bg-white hover:hover:text-blue-600 hover:shadow-xl transition-all ease-in-out'>
                 Github<i className="ml-2 text-lg  fa-brands fa-github  mr-2"></i>
                 </button>
