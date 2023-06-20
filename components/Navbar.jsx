@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <> 
     <nav className=' flex flex-wrap  h-[5rem] items-center justify-between  mx-auto   py-3 shadow px-10 '>
-     <div className='text-xl font-bold '>Paras.<span className='text-blue-600'>dev</span></div>
+     <Link  href='/' className='text-xl font-bold '>Paras.<span className='text-blue-600'>dev</span></Link>
   
        <div className=' hidden md:flex gap-5 text-lg font-semibold items-center'>
          <Link  href="/" className='hover:text-blue-600 transition-all ease-in-out'>Home</Link>

@@ -26,13 +26,15 @@ const Project = () => {
           </div>
       ))}
     </div>
-    <div className='  py-[5rem] w-fit mx-auto md:space-x-3'>
-      <div className='text-left text-2xl font-semibold flex md:flex-row flex-col justify-center md:items-baseline px-4  md:space-x-4 '>
+   <div className="bg-[#f0f0f0]">
+   <div className='  py-[5rem] w-fit mx-auto md:space-x-3 ' >
+      <div className='text-left text-2xl font-semibold flex md:flex-row flex-col justify-center md:items-baseline px-4  md:space-x-2  '>
         <div className=''>New</div>
-        <div className=' text-5xl font-bold text-blue-600 w-[16rem]'><TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]} </TextTransition></div>
+        <div className=' text-5xl font-bold text-blue-600 w-[15rem]  '><TextTransition  springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]} </TextTransition></div>
         <div className=' '> projects coming soon.. 🤠 </div>
       </div>
     </div>
+   </div>
     </>
   )
 }

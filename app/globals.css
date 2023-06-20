@@ -32,6 +32,16 @@
     animation: morph 8s ease-in-out infinite;
     transition: all 1s ease-in-out;
   }
+  .main-bg {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+  
+    z-index: 999;
+  }
+  
   
   @keyframes morph {
     0% {
