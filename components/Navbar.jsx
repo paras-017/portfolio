@@ -18,7 +18,7 @@ const Navbar = () => {
          <Link  href="/" className='hover:text-blue-600 transition-all ease-in-out'>Home</Link>
          <Link  href="/projects" className='hover:text-blue-600 transition-all ease-in-out'>Projects</Link>
          <Link  href="/contact" className='hover:text-blue-600 transition-all ease-in-out'>Contact</Link>
-         <button className="animate-bounce bg-blue-400  rounded-lg p-2 text-white"><i className="fa-solid fa-download mx-2"></i>Resume</button>
+         <button className="animate-bounce bg-blue-500  rounded-lg p-2 text-white"><i className="fa-solid fa-download mx-2"></i>Resume</button>
        </div>
        <button className='block md:hidden outline-none' onClick={handleNav}>
          <i className="hover:text-blue-600 transition-all ease-in-out fa-solid fa-bars-staggered mobile-menu text-xl items-center"></i>
@@ -31,7 +31,7 @@ const Navbar = () => {
           <Link onClick={handleNav}  href="/" className='hover:text-blue-600 transition-all ease-in-out'>Home</Link>
           <Link onClick={handleNav}  href="/projects" className='hover:text-blue-600 transition-all ease-in-out'>Projects</Link>
           <Link onClick={handleNav}  href="/contact" className='hover:text-blue-600 transition-all ease-in-out'>Contact</Link>
-          <button className="animate-bounce inline-block py-4 px-8 bg-teal-500 text-teal-100 rounded-lg"><i className="fa-solid fa-download mx-2"></i>Bounce</button>
+        <button className="animate-bounce inline-block py-4 px-8 bg-blue-600 text-white rounded-lg w-fit self-center"><i className="fa-solid fa-download mx-2"></i>Resume</button>
          </div>
           </div>
 
