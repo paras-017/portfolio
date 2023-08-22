@@ -1,19 +1,19 @@
 [
-  {
-    "id": 1,
-    "projectImg": "/ecommerce.png",
-    "projectName": "Cartify - Your Ultimate Ecommerce Cart Experience",
-    "projectDesc": "Simplify your online shopping experience with SmartCart. Add items, track total cost instantly, and enjoy seamless checkout. Shop smarter, shop easier with SmartCart",
-    "projectLink":"https://next-js-ts-shopping-cart.vercel.app/",
-    "projectGitLink":"https://github.com/paras-017/Next.js-TS-shopping-cart/tree/main"
-  },
-  {
-    "id": 2,
-    "projectImg": "/AuthFlow.png",
-    "projectName": "AuthFlow",
-    "projectDesc": "AuthFlow is a powerful CRUD (Create, Read, Update, Delete) application with seamless Google authentication integration. It offers a streamlined and secure user experience, allowing users to authenticate using their Google credentials and access various features within the app. With AuthFlow, users can manage their data efficiently while enjoying the benefits of Google's robust authentication system.",
-    "projectLink":"https://next-crud-auth-ecru.vercel.app/",
-    "projectGitLink":"https://github.com/paras-017/next-crud-auth/tree/main"
-  }
+{
+  "id": 4,
+  "projectImg": "/Food4Paws_web.png",
+  "projectName": "Food4Paws Website",
+  "projectDesc": "Welcome to Food4Paws! Explore our pet paradise online. Shop treats, toys, and more, with easy sorting and searching. Enjoy secure payments via Razor Pay. Responsive and user-friendly, our site is powered by React Native for seamless browsing on any device. Shop now for all your pet's needs!",
+  "projectLink":"https://food4paw.vercel.app/",
+  "projectGitLink":"https://github.com/paras-017/food4paw"
+},
+{
+  "id": 3,
+  "projectImg": "/Food4Paws.jpg",
+  "projectName": "Food4Paws Native App",
+  "projectDesc": "Discover the Food4Paws Mobile App – your go-to online pet shop. From treats to toys, find everything your pets love. Experience seamless payments through Razor Pay, ensuring security while you shop. Crafted with React Native, our app guarantees a smooth, user-friendly interface for both Android and iOS. Shop smart for your pets today!",
+  "projectLink":"https://mega.nz/file/d6YmgKSI#5Dic6KSpj5iPj3j_NED3f-C27OX72y8TZYJF1NKWNMw",
+  "projectGitLink":"https://github.com/paras-017/RN_Food4Paws"
+}
   ]
   
