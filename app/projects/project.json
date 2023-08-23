@@ -1,6 +1,6 @@
 [
 {
-  "id": 4,
+  "id": 1,
   "projectImg": "/Food4Paws_web.png",
   "projectName": "Food4Paws Website",
   "projectDesc": "Welcome to Food4Paws! Explore our pet paradise online. Shop treats, toys, and more, with easy sorting and searching. Enjoy secure payments via Razor Pay. Responsive and user-friendly, our site is powered by React Native for seamless browsing on any device. Shop now for all your pet's needs!",
@@ -8,12 +8,20 @@
   "projectGitLink":"https://github.com/paras-017/food4paw"
 },
 {
-  "id": 3,
+  "id": 2,
   "projectImg": "/Food4Paws.jpg",
   "projectName": "Food4Paws Native App",
   "projectDesc": "Discover the Food4Paws Mobile App – your go-to online pet shop. From treats to toys, find everything your pets love. Experience seamless payments through Razor Pay, ensuring security while you shop. Crafted with React Native, our app guarantees a smooth, user-friendly interface for both Android and iOS. Shop smart for your pets today!",
   "projectLink":"https://mega.nz/file/d6YmgKSI#5Dic6KSpj5iPj3j_NED3f-C27OX72y8TZYJF1NKWNMw",
   "projectGitLink":"https://github.com/paras-017/RN_Food4Paws"
+},
+{
+  "id": 3,
+  "projectImg": "/ImageFormatter.png",
+  "projectName": "Image Formatter Flask App",
+  "projectDesc": "Image Formatter website powered by Flask and OpenCV. Instantly transform your images using a range of dynamic features. From converting to grayscale and optimizing formats like JPEG, PNG, and WebP, to real-time previews",
+  "projectLink":"",
+  "projectGitLink":"https://github.com/paras-017/Image_Formatter"
 }
   ]
   
