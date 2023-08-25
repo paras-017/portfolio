@@ -27,7 +27,7 @@ const Contact = () => {
   });
 
    //on success sumbit
-   const TEXTS = ['Message sent successfully! 🎉', 'Thank you for reaching out! 🙌',"I'll to contact you soon! ⏱️"];
+   const TEXTS = ['Message sent successfully! 🎉', 'Thank you for reaching out! 🙌',"I'll  contact to you soon! ⏱️"];
    const [index, setIndex] = useState(0)
  
    useEffect(() => {

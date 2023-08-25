@@ -2,11 +2,18 @@
 
 import Link from "next/link"
 import {  useState } from "react";
+import { saveAs } from 'file-saver';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
+  };
+  const handleDownload = () => {
+    const resumeUrl = '/ParasSinghResume.pdf'; // Update this with the actual URL of your PDF resume
+    const fileName = 'ParasSinghResume.pdf'; // Update this with the desired file name
+
+    saveAs(resumeUrl, fileName);
   };
 
   return (
@@ -16,9 +23,10 @@ const Navbar = () => {
   
        <div className=' hidden md:flex gap-5 text-lg font-semibold items-center'>
          <Link  href="/" className='hover:text-blue-600 transition-all ease-in-out'>Home</Link>
-         <Link  href="/projects" className='hover:text-blue-600 transition-all ease-in-out'>Projects</Link>
          <Link  href="/contact" className='hover:text-blue-600 transition-all ease-in-out'>Contact</Link>
-         <button className="animate-bounce bg-blue-500  rounded-lg p-2 text-white"><i className="fa-solid fa-download mx-2"></i>Resume</button>
+         <Link  href="/blogs" className='hover:text-blue-600 transition-all ease-in-out'>Blogs</Link>
+         <Link  href="/projects" className='hover:text-blue-600 transition-all ease-in-out'>Projects</Link>
+         <button onClick={handleDownload} className="hover:bg-blue-600 transition-all ease-in-out bg-blue-500  rounded-lg p-1 text-white"><i className="fa-solid fa-download mx-2"></i>Resume</button>
        </div>
        <button className='block md:hidden outline-none' onClick={handleNav}>
          <i className="hover:text-blue-600 transition-all ease-in-out fa-solid fa-bars-staggered mobile-menu text-xl items-center"></i>
@@ -30,8 +38,9 @@ const Navbar = () => {
          <div className='flex flex-col gap-5 font-semibold  text-2xl text-center space-y-6'>
           <Link onClick={handleNav}  href="/" className='hover:text-blue-600 transition-all ease-in-out'>Home</Link>
           <Link onClick={handleNav}  href="/projects" className='hover:text-blue-600 transition-all ease-in-out'>Projects</Link>
-          <Link onClick={handleNav}  href="/contact" className='hover:text-blue-600 transition-all ease-in-out'>Contact</Link>
-        <button className="animate-bounce inline-block py-4 px-8 bg-blue-600 text-white rounded-lg w-fit self-center"><i className="fa-solid fa-download mx-2"></i>Resume</button>
+          <Link onClick={handleNav}  href="/contact" className='hover:bg-blue-600 hover:text-blue-600 transition-all ease-in-out'>Contact</Link>
+          <Link onClick={handleNav}  href="/blogs" className='hover:bg-blue-600 hover:text-blue-600 transition-all ease-in-out'>Blogs</Link>
+        <button onClick={handleDownload} className="transition-all ease-in-out inline-block py-2 px-4 bg-blue-600 text-white rounded-lg w-fit self-center"><i className="fa-solid fa-download mx-2"></i>Resume</button>
          </div>
           </div>
 

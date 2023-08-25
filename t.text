@@ -1,0 +1,23 @@
+hero
+
+
+ <div className=' flex items-center justify-center flex-col md:flex-row md:mt-10'>
+          <div className="text-center md:text-left space-y-4 mt-6 p-6">
+              <h1 className='text-3xl font-medim'>Hi, I'm <span className='text-blue-600 font-semibold'>Paras Singh</span>,<br/>Full-Stack Next Developer</h1>
+              <p className='text-xl font-normal md:max-w-xl'>My passion is creating, and I find happiness in being a better me today than the me yesterday.</p>
+              <div className='flex space-x-2 justify-center md:justify-start'>
+                <a target='_blank' href="https://github.com/paras-017">
+                  <FaGithubSquare className='text-2xl hover:text-blue-600 transition-all ease-in-out'/>
+                </a>
+                <a target='_blank' href="https://www.linkedin.com/in/paras018/">
+                  <FaLinkedin className='text-2xl hover:text-blue-600 transition-all ease-in-out'/>
+                </a>
+              </div>
+          </div>
+          <div>
+              <img src="/carbon.png" alt="" className='w-full h-full max-h-96 ' />
+          </div>
+      </div>
+
+
+ <Link  href="/blogs" className='hover:text-blue-600 transition-all ease-in-out'>Blogs</Link>
