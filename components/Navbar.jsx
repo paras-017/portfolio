@@ -10,7 +10,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   const handleDownload = () => {
-    const resumeUrl = '/ParasSinghResume.pdf'; // Update this with the actual URL of your PDF resume
+    const resumeUrl = '/ParasSinghResumeUpdated.pdf'; // Update this with the actual URL of your PDF resume
     const fileName = 'ParasSinghResume.pdf'; // Update this with the desired file name
 
     saveAs(resumeUrl, fileName);
